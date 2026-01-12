@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+.my-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #ef4444 transparent;
+}
+
+.my-scroll::-webkit-scrollbar {
+  width: 6px;
+  border: 5px;
+
+}
+.my-scroll::-webkit-scrollbar-thumb {
+  background: #FFE2AF;
+}
