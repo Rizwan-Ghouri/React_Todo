@@ -72,8 +72,8 @@ const Todos = () => {
   };
 
   return (
-    <section className="flex justify-center items-center md:h-screen bg-[#0F2854]">
-      <section className="grid grid-cols-1 lg:grid-cols-2 md:border-2 h-3/4 md:w-10/12 bg-[#F96E5B] shadow-lg rounded-xl">
+    <section className="flex justify-center items-center md:h-screen bg-[#0F2854] ">
+      <section className="grid grid-cols-1 lg:grid-cols-2 md:border-2 h-3/4 w-full md:w-10/12 m-2 md:mt-20 bg-[#F96E5B] shadow-lg rounded-xl">
         <section className="border-2 p-5 m-4 space-y-3 bg-[#FFE2AF] text-[#161E54] shadow-lg rounded-xl">
           <h1 className="text-center font-bold text-2xl">Todos Form</h1>
           <div className="">
